@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import MovieHeader from "../movieHeader";
 import "./index.css";
 
@@ -7,7 +7,12 @@ class MovieItemDetails extends Component {
     this.getMovieItemDetails();
   }
 
-  getMovieItemDetails = () => {};
+  getMovieItemDetails = () => {
+    const { match } = this.props;
+    const { params } = match;
+    const { movieId } = params;
+    console.log("Movie ID:", movieId);
+  };
 
   render() {
     return (

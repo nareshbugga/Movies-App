@@ -3,7 +3,7 @@ import "./index.css";
 
 const CarouselCard = (props) => {
   const { eachMovie } = props;
-  console.log(eachMovie.movieId);
+  //   console.log(eachMovie.movieId);
   return (
     <div>
       <Link to={`/movies/${eachMovie.movieId}`}>

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Navigate } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
 
 import Cookies from "js-cookie";
 import "./index.css";
@@ -51,10 +51,10 @@ class LoginForm extends Component {
   };
 
   render() {
-    const jwtToken = Cookies.get("jwt_token");
-    if (jwtToken !== undefined) {
-      <Navigate to="/" />;
-    }
+    // const jwtToken = Cookies.get("jwt_token");
+    // if (jwtToken !== undefined) {
+    //   <Navigate to="/" />;
+    // }
     const { username, password, showSubmitError, errorMsg } = this.state;
     return (
       <div className="movies-login-back-ground">

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Navigate } from "react-router-dom";
+// import { Navigate } from "react-router-dom";
 import Cookies from "js-cookie";
 import MovieHeader from "../movieHeader";
 import MovieFooter from "../movieFooter";
@@ -81,10 +81,10 @@ class HomePage extends Component {
   };
 
   render() {
-    const jwtToken = Cookies.get("jwt_token");
-    if (jwtToken === undefined) {
-      <Navigate to="/login" />;
-    }
+    // const jwtToken = Cookies.get("jwt_token");
+    // if (jwtToken === undefined) {
+    //   <Navigate to="/login" />;
+    // }
     const {
       moviePoster,
       title,
