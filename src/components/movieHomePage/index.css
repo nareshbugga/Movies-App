@@ -1,0 +1,40 @@
+.home-page-container {
+  background-color: black;
+  background-size: cover;
+  min-height: 200vh;
+}
+.background-title {
+  font-family: "Roboto";
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.background-overview {
+  font-family: "Roboto";
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.description-container {
+  width: 50%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px 120px;
+}
+.carousel-container {
+  margin: 30px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel-heading {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 50px;
+}

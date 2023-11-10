@@ -1,0 +1,67 @@
+.movies-login-back-ground {
+  background-image: url("https://res.cloudinary.com/dqrp5aeqy/image/upload/v1692951695/Login_background_image_fx52gb.svg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-back-ground {
+  background: rgba(12, 11, 16, 0.7);
+  height: 400px;
+  width: 40%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+}
+.login-form-heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: #ffffff;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.input-label {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+.input-value {
+  background-color: #333333;
+  font-family: "Roboto";
+  color: black;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 250px;
+  height: 33px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #e50914;
+  border: none;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.error-msg {
+  font-family: "Roboto";
+  color: #e50914;
+}
